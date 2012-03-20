@@ -15,3 +15,8 @@ name=air-mobile
 
 [Theme-plasma-mobile]
 name=air-mobile
+
+[Input]
+hasHomeButton=true
+hasBackButton=true
+hasMenuButton=true
