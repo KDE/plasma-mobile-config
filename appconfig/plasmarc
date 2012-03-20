@@ -20,3 +20,6 @@ name=air-mobile
 hasHomeButton=true
 hasBackButton=true
 hasMenuButton=true
+
+[General]
+UseOpenGl=false
