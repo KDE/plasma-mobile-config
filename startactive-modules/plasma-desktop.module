@@ -1,0 +1,7 @@
+[Module]
+id=plasma-desktop
+exec=plasma-desktop
+depends=nepomuk,activitymanager
+
+wait=dbus
+dbus=org.kde.plasma-desktop

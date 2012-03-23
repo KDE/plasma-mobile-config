@@ -1,0 +1,5 @@
+[Module]
+id=kstartupconfig
+exec=kstartupconfig4
+
+wait=end
