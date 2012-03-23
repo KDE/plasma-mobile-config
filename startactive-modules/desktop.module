@@ -1,0 +1,6 @@
+[Module]
+# This is a meta-module, no executable
+id=desktop
+depends=ksmserver,plasma-desktop
+
+wait=none

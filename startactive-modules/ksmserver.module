@@ -1,0 +1,6 @@
+[Module]
+id=ksmserver
+exec=kwrapper4 ksmserver
+depends=kdeinit
+
+#wait=end
