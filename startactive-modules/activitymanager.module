@@ -1,0 +1,7 @@
+[Module]
+id=activitymanager
+exec=kactivitymanagerd
+depends=nepomuk
+
+wait=dbus
+dbus=org.kde.kactivitymanagerd

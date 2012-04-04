@@ -1,0 +1,6 @@
+[Module]
+id=console
+exec=ck-launch-session
+depends=prestart
+
+wait=none

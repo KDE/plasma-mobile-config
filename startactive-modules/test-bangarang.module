@@ -1,0 +1,6 @@
+[Module]
+id=test-bangarang
+exec=bangarang
+
+wait=dbus
+dbus=org.mpris.bangarang

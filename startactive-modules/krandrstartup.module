@@ -1,0 +1,6 @@
+[Module]
+id=krandrstartup
+exec=krandrstartup
+depends=kstartupconfig
+
+wait=end
