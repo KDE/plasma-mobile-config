@@ -1,4 +1,0 @@
-[Module]
-id=setup-contour-intro
-exec=setup-contour-intro.sh
-depends=prestart

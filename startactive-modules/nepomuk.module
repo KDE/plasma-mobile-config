@@ -1,7 +1,7 @@
 [Module]
 id=nepomuk
 exec=nepomukserver
-depends=setup-contour-intro
+depends=setup-kde-skel
 
 wait=dbus
 dbus=org.kde.nepomuk.services.nepomukqueryservice
