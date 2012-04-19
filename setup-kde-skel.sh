@@ -1,13 +1,11 @@
 #!/bin/sh
-# This script will be started by startactive. In case of an previous
+# This script will be started by startactive. In case of a previous
 # installation the setup will be skipt.
 
 
-if [ -d "${HOME}/.kde/share/apps/nepomuk" ]; then  
-   echo "${HOME}/.kde/share/apps/nepomuk already exists, will not overwrite"
-elif [ -e "/usr/share/contour/do_not_use_nepomuk_intro_database" ]; then
-   echo "will not copy the database"
+if [ -d "${HOME}/.kde/share/config/plasma-device-appletsrc" ]; then  
+   echo "${HOME}/.kde/share/config/plasma-device-appletsrc already exists, will not overwrite"
 else
-   # Copy nepomuk database
+   # Copy the /etc/skel
    cp -auR /etc/skel/.kde ${HOME}
 fi
