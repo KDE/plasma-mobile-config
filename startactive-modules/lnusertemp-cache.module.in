@@ -1,0 +1,5 @@
+[Module]
+id=lnusertemp-cache
+exec=@KDE_ROOT_DIR@/lib/kde4/libexec/lnusertemp cache
+depends=kstartupconfig
+wait=end

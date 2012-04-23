@@ -1,0 +1,6 @@
+[Module]
+id=konsole
+exec=konsole
+depends=prestart
+
+wait=none

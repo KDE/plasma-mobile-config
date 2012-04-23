@@ -1,0 +1,4 @@
+[Module]
+id=setup-kde-skel
+exec=setup-kde-skel.sh
+depends=prestart
