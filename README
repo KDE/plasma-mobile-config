@@ -3,4 +3,3 @@ when packaged, the 3 toplevel folders go in:
 * appconfig: /usr/share/kde4/share/config
 * skel: /etc/skel/.kde/share/config
 * startactive-modules: /usr/share/kde4/apps/startactive/modules
-* setup-kde-skel.sh: /usr/bin
