@@ -16,4 +16,3 @@ include_directories(
 
 install(DIRECTORY appconfig/ DESTINATION ${CONFIG_INSTALL_DIR})
 install(DIRECTORY skel/ DESTINATION /etc/skel/.kde/share/config)
-install(FILES setup-kde-skel.sh DESTINATION ${KDE4_BIN_INSTALL_DIR})
