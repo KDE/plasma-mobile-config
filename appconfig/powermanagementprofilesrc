@@ -5,7 +5,7 @@ value=100
 idleTime=600000
 
 [AC][DimDisplay]
-idleTime=1200
+idleTime=120000
 
 [AC][HandleButtonEvents]
 lidAction=1
@@ -22,7 +22,7 @@ value=62
 idleTime=600000
 
 [Battery][DimDisplay]
-idleTime=1200
+idleTime=120000
 
 [Battery][HandleButtonEvents]
 lidAction=1
@@ -39,7 +39,7 @@ value=38
 idleTime=200000
 
 [LowBattery][DimDisplay]
-idleTime=1200
+idleTime=120000
 
 [LowBattery][HandleButtonEvents]
 lidAction=1
