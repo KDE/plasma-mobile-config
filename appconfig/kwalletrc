@@ -1,5 +1,5 @@
 [Auto Allow]
-kdewallet=Network Management,KDE Daemon,KDE Control Module
+kdewallet=Network Management,KDE Daemon,KDE Control Module,Add Ons App,Plasma Active Web Browser
 
 [Wallet]
 Close When Idle=false
