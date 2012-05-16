@@ -2,7 +2,7 @@
 disable suspend on powersave=true
 exclude filters=.*/,.*,*~,*.part
 exclude filters version=2
-folders[$e]=$HOME,/usr/share/contour/demo/contourdemo
+folders[$e]=$HOME,/usr/share/contour/demo/contourdemo,/usr/share/sample-media
 index hidden folders=false
 index newly mounted=false
 
