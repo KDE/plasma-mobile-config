@@ -171,7 +171,7 @@ ShowCalendarPopup=false
 [Containments][9][Applets][16]
 geometry=0,0,32,32
 immutability=1
-plugin=org.kde.active.powerbutton
+plugin=org.kde.locationchooser
 zvalue=0
 
 [Containments][9][General]
