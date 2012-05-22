@@ -23,4 +23,4 @@ configure_file(
 install(DIRECTORY appconfig/ DESTINATION ${CONFIG_INSTALL_DIR})
 install(DIRECTORY skel/ DESTINATION /etc/skel/.kde/share/config)
 #install(DIRECTORY profile.d/*.sh DESTINATION /etc/profile.d/)
-install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/profile.d DESTINATION /etc/)
+install(DIRECTORY ${CMAKE_CURRENT_BINARY_DIR}/profile.d DESTINATION /etc/ PATTERN .cmake EXCLUDE)
