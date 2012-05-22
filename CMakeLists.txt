@@ -19,6 +19,10 @@ configure_file(
     profile.d/activeqmlimportpath.sh.cmake
     ${CMAKE_CURRENT_BINARY_DIR}/profile.d/activeqmlimportpath.sh
 )
+configure_file(
+    profile.d/disablecursors.sh.cmake
+    ${CMAKE_CURRENT_BINARY_DIR}/profile.d/disablecursors.sh
+)
 
 install(DIRECTORY appconfig/ DESTINATION ${CONFIG_INSTALL_DIR})
 install(DIRECTORY skel/ DESTINATION /etc/skel/.kde/share/config)
