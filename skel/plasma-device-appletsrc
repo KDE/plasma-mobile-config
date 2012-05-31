@@ -1,6 +1,6 @@
 [Containments][22]
 ActionPluginsSource=Global
-activity=Introduction
+activity=Welcome
 activityId=ddc0a8fa-5f0f-4285-98fc-45fc79939111
 desktop=-1
 formfactor=0
@@ -12,18 +12,27 @@ location=1
 plugin=org.kde.active.activityscreen
 screen=0
 wallpaperplugin=image
-wallpaperpluginmode=SingleImage
+wallpaperpluginmode=
 zvalue=0
 
 [Containments][22][Applets][35]
-geometry=0,0,684,572
+geometry=0,0,488,474
 immutability=1
 plugin=org.kde.active.welcome
 zvalue=0
 
+[Containments][22][Applets][37]
+geometry=0,0,316,343
+immutability=1
+plugin=org.kde.news-qml
+zvalue=0
+
+[Containments][22][Applets][37][Configuration][General]
+feeds=http://dot.kde.org/rss.xml,http://opentablets.org/rss/ccs/1-home/
+
 [Containments][22][General]
 FirstStartup=false
-ItemsGeometries=InformationElement:534,158,178,158;Bookmark:0,158,356,158;Image:356,0,178,158;Application:534,0,178,158;nfo%3AApplication:712,0,178,158;nfo%3ABookmark:890,0,356,158;Applet-35:0,0,712,632;
+ItemsGeometries=InformationElement:534,158,178,158;Bookmark:0,158,356,158;Image:356,0,178,158;Application:534,0,178,158;nfo%3AApplication:688,0,172,131;nfo%3ABookmark:516,0,344,131;Applet-35:0,0,516,524;Applet-37:516,131,344,393;Applet-39:860,0,344,262;Applet-41:859,-5,344,262;Applet-42:860,0,344,262;
 
 [Containments][22][Wallpaper][image]
 slideTimer=10
@@ -33,66 +42,17 @@ wallpaper=/usr/share/wallpapers/default_wallpaper.png
 wallpapercolor=0,0,0
 wallpaperposition=2
 
-[Containments][28]
-ActionPluginsSource=Global
-activity=Vacation planning
-activityId=a0787a83-d89a-42ef-8af7-a716b04a07e8
-desktop=-1
-formfactor=0
-geometry=0,0,1366,768
-immutability=1
-lastDesktop=-1
-lastScreen=0
-location=0
-plugin=org.kde.active.activityscreen
-screen=-1
-wallpaperplugin=image
-wallpaperpluginmode=SingleImage
-zvalue=0
-
-[Containments][28][Applets][36]
-geometry=0,0,328,256
-immutability=1
-plugin=plasma_applet_notes
-zvalue=0
-
 [Containments][28][Applets][36][Configuration]
-autoSaveHtml=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">\n<html><head><meta name="qrichtext" content="1" /><style type="text/css">\np, li { white-space: pre-wrap; }\n</style></head><body style=" font-family:'Droid Sans Fallback'; font-size:11pt; font-weight:400; font-style:normal;">\n<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;"></p></body></html>
+autoSaveHtml=<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0//EN" "http://www.w3.org/TR/REC-html40/strict.dtd">\n<html><head><meta name="qrichtext" content="1" /><style type="text/css">\np, li { white-space: pre-wrap; }\n</style></head><body style=" font-family:'Droid Sans Fallback'; font-size:10pt; font-weight:400; font-style:normal;">\n<p style="-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:11pt;"><br /></p></body></html>
 scrollValue=0
-
-[Containments][28][Applets][37]
-geometry=0,0,506,256
-immutability=1
-plugin=weather
-zvalue=0
-
-[Containments][28][Applets][37][Configuration]
-Share=false
-pressureUnit=5028
-source=bbcukmet|weather|Berlin - Brandenburg International, Germany|http://newsrss.bbc.co.uk/weather/forecast/2087/ObservationsRSS.xml
-speedUnit=9002
-temperatureUnit=6002
-updateInterval=30
-visibilityUnit=2007
-
-[Containments][28][General]
-ItemsGeometries=Image:0,316,178,158;Application:356,474,534,158;Bookmark:356,0,534,158;nfo%3AApplication:0,316,534,158;nfo%3ABookmark:534,316,534,158;Applet-36:712,0,356,316;Applet-37:0,0,534,316;
-
-[Containments][28][Wallpaper][image]
-slideTimer=10
-slidepaths=/usr/share/wallpapers/
-userswallpapers=/usr/share/wallpapers/field.jpg
-wallpaper=/usr/share/wallpapers/field.jpg
-wallpapercolor=0,0,0
-wallpaperposition=0
 
 [Containments][30]
 ActionPluginsSource=Global
-activity=My first Activity
+activity=New Activity
 activityId=fd1bca61-d525-418c-8a7b-8a15c468fc34
 desktop=-1
 formfactor=0
-geometry=0,0,1366,768
+geometry=1366,768,1366,768
 immutability=1
 lastDesktop=-1
 lastScreen=0
@@ -100,7 +60,7 @@ location=0
 plugin=org.kde.active.activityscreen
 screen=-1
 wallpaperplugin=image
-wallpaperpluginmode=SingleImage
+wallpaperpluginmode=
 zvalue=0
 
 [Containments][30][Wallpaper][image]
@@ -130,31 +90,35 @@ wallpaperpluginmode=SingleImage
 zvalue=0
 
 [Containments][9][Applets][10]
-geometry=0,0,32,32
+geometry=6.5,0,32,32
 immutability=1
 plugin=notifier
 zvalue=0
 
 [Containments][9][Applets][11]
-geometry=0,0,32,32
+geometry=14.5,0,32,32
 immutability=1
 plugin=battery
 zvalue=0
 
 [Containments][9][Applets][12]
-geometry=0,0,32,32
+geometry=6.5,0,32,32
 immutability=1
 plugin=org.kde.networkmanagement
 zvalue=0
 
+[Containments][9][Applets][12][PopupApplet]
+DialogHeight=306
+DialogWidth=381
+
 [Containments][9][Applets][13]
-geometry=0,0,32,32
+geometry=6.5,0,32,32
 immutability=1
 plugin=org.kde.active.notifications
 zvalue=0
 
 [Containments][9][Applets][14]
-geometry=0,0,112,32
+geometry=0,0,141,32
 immutability=1
 plugin=org.kde.sharelikeconnect
 zvalue=0
@@ -169,17 +133,17 @@ zvalue=0
 ShowCalendarPopup=false
 
 [Containments][9][Applets][16]
-geometry=0,0,32,32
+geometry=6.5,0,32,32
 immutability=1
 plugin=org.kde.locationchooser
 zvalue=0
 
 [Containments][9][Applets][17]
-geometry=0,0,32,32
+geometry=0,0,45,32
 immutability=1
 plugin=org.kde.active.powerbutton
 zvalue=0
 
 [Containments][9][General]
-AppletsOrder=:10:11:12:13:16
+AppletsOrder=:10:11:12:13:16:17
 SkipItems=klipper
