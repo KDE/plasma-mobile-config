@@ -1,0 +1,12 @@
+Section "InputClass"
+    Identifier "ft5301_ts"
+    MatchProduct "ft5302_ts"
+    Driver "mtev"
+    Option "Ignore" "off"
+EndSection
+
+Section "InputClass"
+    Identifier "Vivaldi Compass Input"
+    MatchProduct "ecompass_data"
+    Option "Ignore" "on"
+EndSection
