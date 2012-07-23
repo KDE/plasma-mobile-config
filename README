@@ -1,3 +1,7 @@
+Copyright 2012 Marco Martin <notmart@gmail.com>
+Copyright 2012 Aaron Seigo <aseigo@kde.org>
+Copyright 2012 Sebastian Kügler <sebas@kde.org>
+
 when packaged, the 3 toplevel folders go in:
 
 * appconfig: /usr/share/kde4/share/config
