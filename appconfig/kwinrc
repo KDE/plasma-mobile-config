@@ -3,7 +3,7 @@ update_info=kwin_update_tabbox_qml_settings.upd:kwin_update_tabbox_qml_settings,
 
 [Compositing]
 AnimationSpeed=3
-Backend=OpenGL
+Backend=XRender
 DisableChecks=true
 Enabled=true
 GLDirect=true
