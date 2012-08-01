@@ -5,3 +5,5 @@
 [Module-kpackagekitd]
 autoload=false
 
+[Module-powerdevil]
+autoload=false
