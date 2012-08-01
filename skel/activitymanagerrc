@@ -1,8 +1,13 @@
 [activities]
-ddc0a8fa-5f0f-4285-98fc-45fc79939111=Introduction
-a0787a83-d89a-42ef-8af7-a716b04a07e8=Vacation planning
-fd1bca61-d525-418c-8a7b-8a15c468fc34=My first Activity
+ddc0a8fa-5f0f-4285-98fc-45fc79939111=Welcome
+fd1bca61-d525-418c-8a7b-8a15c468fc34=New Activity
+
+[activitiesDesktops]
+ddc0a8fa-5f0f-4285-98fc-45fc79939111=1
+fd1bca61-d525-418c-8a7b-8a15c468fc34=1
 
 [main]
 currentActivity=ddc0a8fa-5f0f-4285-98fc-45fc79939111
-runningActivities=ddc0a8fa-5f0f-4285-98fc-45fc79939111,a0787a83-d89a-42ef-8af7-a716b04a07e8,fd1bca61-d525-418c-8a7b-8a15c468fc34
+lastUnlockedActivity=ddc0a8fa-5f0f-4285-98fc-45fc79939111
+ontologyVersion=1
+runningActivities=ddc0a8fa-5f0f-4285-98fc-45fc79939111,fd1bca61-d525-418c-8a7b-8a15c468fc34
