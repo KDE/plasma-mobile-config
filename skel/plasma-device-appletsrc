@@ -126,7 +126,7 @@ zvalue=0
 [Containments][9][Applets][15]
 geometry=0,0,64,32
 immutability=1
-plugin=digital-clock
+plugin=org.kde.digital-clock
 zvalue=0
 
 [Containments][9][Applets][15][Configuration]
