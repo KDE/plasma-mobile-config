@@ -1,0 +1,5 @@
+[Desktop Entry]
+Exec=korgac
+Hidden=true
+OnlyShowIn=KDE;
+X-KDE-autostart-phase=BaseDesktop
