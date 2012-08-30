@@ -3,4 +3,4 @@ Enabled=false
 Lock=true
 LockGrace=0
 Timeout=300
-GreeterQML=kscreenlocker/lockscreen-active.qml
+GreeterQML=org.kde.active.slide
