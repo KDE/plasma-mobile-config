@@ -13,6 +13,7 @@ menuFont=Droid Sans Fallback,12,-1,5,50,0,0,0,0,0
 smallestReadableFont=Droid Sans Fallback,8,-1,5,50,0,0,0,0,0
 taskbarFont=Droid Sans Fallback,12,-1,5,50,0,0,0,0,0
 toolBarFont=Droid Sans Fallback,10,-1,5,50,0,0,0,0,0
+runtimePlatform=tablet,touch
 
 [DesktopIcons]
 ActiveColor=169,156,255
