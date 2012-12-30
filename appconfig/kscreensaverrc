@@ -1,5 +1,5 @@
 [ScreenSaver]
-Enabled=false
+Enabled=true
 Lock=true
 LockGrace=0
 Timeout=300
