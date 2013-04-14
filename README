@@ -7,3 +7,12 @@ when packaged, the 3 toplevel folders go in:
 * appconfig: /usr/share/kde4/share/config
 * skel: /etc/skel/.kde/share/config
 * startactive-modules: /usr/share/kde4/apps/startactive/modules
+
+==Optional Settings==
+
+===kdeglobals===
+
+====[General]====
+integrationBranch=<zypper repository to use for integration branch>
+TerminalApplication=<name of binary, defaults to konsole>
+
