@@ -1,7 +1,7 @@
 [Module]
 id=plasma-device
 exec=plasma-device
-depends=nepomuk,activitymanager,contour
+depends=nepomuk,activitymanager
 
 wait=dbus
 dbus=org.kde.plasma-device

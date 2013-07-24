@@ -122,12 +122,6 @@ zvalue=0
 [Containments][9][Applets][15][Configuration]
 ShowCalendarPopup=false
 
-[Containments][9][Applets][16]
-geometry=6.5,0,32,32
-immutability=1
-plugin=org.kde.locationchooser
-zvalue=0
-
 [Containments][9][General]
 AppletsOrder=:10:11:12:13:16:17
 SkipItems=klipper
