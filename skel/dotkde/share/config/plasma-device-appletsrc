@@ -15,12 +15,6 @@ wallpaperplugin=image
 wallpaperpluginmode=
 zvalue=0
 
-[Containments][22][Applets][35]
-geometry=0,0,488,474
-immutability=1
-plugin=org.kde.active.welcome
-zvalue=0
-
 [Containments][22][General]
 FirstStartup=false
 ItemsGeometries=InformationElement:534,158,178,158;Bookmark:0,158,356,158;Image:356,0,178,158;Application:534,0,178,158;nfo%3AApplication:688,0,172,131;nfo%3ABookmark:516,0,344,131;Applet-35:0,0,516,524;Applet-37:516,131,344,393;Applet-39:860,0,344,262;Applet-41:859,-5,344,262;Applet-42:860,0,344,262;
