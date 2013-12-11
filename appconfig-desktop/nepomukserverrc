@@ -1,0 +1,8 @@
+[Basic Settings]
+Start Nepomuk=true
+
+[Service-nepomukstrigiservice]
+autostart=true
+
+[main Settings]
+Maximum memory=50

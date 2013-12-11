@@ -1,0 +1,6 @@
+[ScreenSaver]
+Enabled=true
+Lock=true
+LockGrace=0
+Timeout=300
+GreeterQML=org.kde.active.slide

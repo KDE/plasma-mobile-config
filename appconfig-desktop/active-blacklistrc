@@ -1,0 +1,4 @@
+[blacklist]
+apps=kwalletmanager,dolphinsu,nepomukbackup,flashplayer,qt4config,kmix,bluedevil-monolithic,akonaditray,nepomukcontroller,kleopatra,systemsettings,konsolesu,cups,korganizer,sheets,words,stage,calligramobile,knetattach,author,calligraactive,nepomukcleaner,importwizard
+
+plasmoids=battery,currentappcontrol,keyboard_applet,org.kde.active.activityscreen,org.kde.active.notifications,org.kde.active.powerbutton,org.kde.active.systemtray,org.kde.appletstrip,org.kde.batterymonitor,org.kde.mobilenetworkoperator,org.kde.mobilenetworkstatus,org.kde.sharelikeconnect,org.kde.webdashboard,org.kde.active.connman,org.kde.locationchooser,org.kde.networkmanagement

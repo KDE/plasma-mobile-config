@@ -21,7 +21,7 @@ WindowDragEnabled=false
 [Windeco]
 AnimateTitleChange=true
 BlendColor=Radial Gradient
-ButtonSize=Normal
+ButtonSize=Huge
 DrawSeparator=false
 DrawTitleOutline=false
 FrameBorder=Tiny
