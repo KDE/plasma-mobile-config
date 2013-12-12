@@ -21,8 +21,9 @@ configure_file(
 )
 
 
-install(DIRECTORY appconfig-active/ DESTINATION /opt/plasma/active/share/kde4/config/)
-install(DIRECTORY appconfig-desktop/ DESTINATION /opt/plasma/desktop/share/kde4/config/)
+install(DIRECTORY appconfig-active/ DESTINATION /opt/plasma/active/share/config/)
+install(DIRECTORY autostart-active/ DESTINATION /opt/plasma/active/share/autostart/)
+install(DIRECTORY appconfig-desktop/ DESTINATION /opt/plasma/desktop/share/config/)
 install(DIRECTORY skel/dotkde/ DESTINATION /etc/skel/.kde)
 install(DIRECTORY skel/dotconfig/ DESTINATION /etc/skel/.config)
 #install(DIRECTORY profile.d/*.sh DESTINATION /etc/profile.d/)
