@@ -2,7 +2,7 @@
 update_info=mouse_cursor_theme.upd:kde3.4.99
 
 [Mouse]
-cursorTheme=plasmamobilemouse
+cursorTheme=Oxygen_White
 
 [KDE]
 StartDragDist=16
